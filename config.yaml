@@ -1,0 +1,21 @@
+search_space:
+  dim:
+    - 5
+    - 20
+    - 50
+    - 100
+  loss:
+    - 'logistic'
+    - 'bpr'
+    - 'warp'
+    - 'warp-kos'
+  lam:
+    - 0.01
+    - 0.0001
+val_size: 0.3
+mf_hyperparams:
+    iters: 5000
+    batch_size: 256
+    dim: 10
+    eta: 0.001
+    lam: 0.00001

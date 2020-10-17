@@ -127,3 +127,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# others
+.DS_Store
+.vscode
+note.md
+models/
+results/
+data/
+paper_results/
+*.ipynb
+*.html
+*.csv
+download_results_from_gce.py
